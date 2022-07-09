@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
+
+:root {
+    --body-bg-color: #FAF7FD;
+    --purple: #BB99DD;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: var(--body-bg-color);
+}
+
+#social{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#social .container{
+    width: 600px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#social .container .top-area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#social .container .top-area img{
+    border-radius: 100%;
+    width: 200px;
+    height: auto;
+    padding: 5px;
+    border: 2px solid var(--purple);
+    margin-bottom: 30px;
+}
+
+#social .container .top-area .title{
+    color: var(--purple);
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#social .container .buttom-area{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+#social .container .buttom-area button{
+    height: 40px;
+    width: 250px;
+    margin-bottom: 5px;
+    background-color: transparent;
+    border: 2px solid var(--purple);
+    border-radius: 4px;
+    color: var(--purple);
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background .3s ease;
+}
+
+#social .container .buttom-area button:hover{
+    background-color: var(--purple);
+    color: var(--body-bg-color);
+}
+
+#social .container .social-area{
+    width: 100%;
+    max-width: 250px;
+    display: flex;
+    justify-content: space-between;
+}
