@@ -2,6 +2,7 @@
 
 :root {
     --body-bg-color: #FAF7FD;
+    --body-bg-dark: #121212;
     --purple: #BB99DD;
 }
 
@@ -14,6 +15,10 @@
 
 body{
     background-color: var(--body-bg-color);
+}
+
+body.dark{
+    background-color: var(--body-bg-dark);
 }
 
 #social{
