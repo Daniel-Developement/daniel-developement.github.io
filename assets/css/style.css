@@ -49,7 +49,7 @@ body.dark{
 #social .container .top-area img{
     border-radius: 100%;
     width: 200px;
-    height: auto;
+    height: 200px;
     padding: 5px;
     border: 2px solid var(--purple);
     margin-bottom: 30px;
